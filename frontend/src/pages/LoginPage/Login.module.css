@@ -1,0 +1,40 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.loginSection {
+  text-align: center;
+}
+
+.loginForm {
+  padding: 1rem 0;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  width: 20%;
+  margin: auto;
+}
+
+.loginFormItem {
+  margin: 1rem 0;
+}
+
+.loginFormLabel {
+  margin: 1rem 0;
+}
+
+.loginFormInput {
+  padding: 1rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+.loginFormInput:focus {
+  outline: none;
+  border: 1px solid #8d8d8d;
+}
+
+@media (max-width: 1000px) {
+  .loginForm {
+    width: 90%;
+  }
+}
